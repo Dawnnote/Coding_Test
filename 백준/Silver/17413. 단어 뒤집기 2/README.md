@@ -31,4 +31,102 @@
 ### 출력 
 
  <p>첫째 줄에 문자열 S의 단어를 뒤집어서 출력한다.</p>
+ 
+ 
+ ## 예제 입력 1
+
+```
+baekjoon online judge
+
+```
+
+## 예제 출력 1
+
+```
+noojkeab enilno egduj
+
+```
+
+## 예제 입력 2
+
+```
+<open>tag<close>
+
+```
+
+## 예제 출력 2
+
+```
+<open>gat<close>
+
+```
+
+## 예제 입력 3
+
+```
+<ab cd>ef gh<ij kl>
+
+```
+
+## 예제 출력 3
+
+```
+<ab cd>fe hg<ij kl>
+
+```
+
+## 예제 입력 4
+
+```
+one1 two2 three3 4fourr 5five 6six
+
+```
+
+## 예제 출력 4
+
+```
+1eno 2owt 3eerht rruof4 evif5 xis6
+
+```
+
+## 예제 입력 5
+
+```
+<int><max>2147483647<long long><max>9223372036854775807
+
+```
+
+## 예제 출력 5
+
+```
+<int><max>7463847412<long long><max>7085774586302733229
+
+```
+
+## 예제 입력 6
+
+```
+<problem>17413<is hardest>problem ever<end>
+
+```
+
+## 예제 출력 6
+
+```
+<problem>31471<is hardest>melborp reve<end>
+
+```
+
+## 예제 입력 7
+
+```
+<   space   >space space space<    spa   c e>
+
+```
+
+## 예제 출력 7
+
+```
+<   space   >ecaps ecaps ecaps<    spa   c e>
+```
 
