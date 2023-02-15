@@ -1,0 +1,7 @@
+A = int(input())
+B = input()
+AxB_0 = A*int(B[2])
+AxB_1 = A*int(B[1])
+AxB_2 = A*int(B[0])
+AxB = A*int(B)
+print(AxB_0, AxB_1, AxB_2, AxB, sep="\n")
