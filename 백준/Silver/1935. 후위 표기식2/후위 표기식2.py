@@ -20,4 +20,4 @@ for i in operator:
         elif i == '-':
             stack.append(op1-op2)
 
-print("%.2f" %stack[0])
+print(f"{stack[0]:.2f}")
