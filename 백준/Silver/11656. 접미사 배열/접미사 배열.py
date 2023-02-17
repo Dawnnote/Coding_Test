@@ -1,8 +1,5 @@
 S = input()
-result = []
+result = [S[i:] for i in range(len(S))]
 
-for i in range(len(S)):
-    result.append(S[i:])
-
-for j in sorted(result):
-    print(j)
+for i in sorted(result):
+    print(i)
